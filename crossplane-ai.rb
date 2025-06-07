@@ -5,21 +5,21 @@
 class CrossplaneAi < Formula
   desc "AI-powered command-line tool for Crossplane resource management"
   homepage "https://github.com/patradinesh/crossplane-ai"
-  version "0.1.0-alpha.3"
+  version "0.1.0-alpha.4"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.3/crossplane-ai_Darwin_x86_64.tar.gz"
-      sha256 "9469e0260c978c7dfd3c96c861e31f5c7f2d4a31d9ccc8ca264d90f0302795d0"
+      url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.4/crossplane-ai_Darwin_x86_64.tar.gz"
+      sha256 "1de1792604062237af867e6835fe5b69d5ba48b2b4f0063914bd95a1d726c89f"
 
       def install
         bin.install "crossplane-ai"
       end
     end
     on_arm do
-      url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.3/crossplane-ai_Darwin_arm64.tar.gz"
-      sha256 "6b6d7c77e3f877d2823f9f7f7d590f60c65b1e0a83cd3e970bd8eb05618c491b"
+      url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.4/crossplane-ai_Darwin_arm64.tar.gz"
+      sha256 "e79644606a32a61b059ba1fb623e6844bdc36ac9467e504a6eb08679ce5cddf4"
 
       def install
         bin.install "crossplane-ai"
@@ -30,8 +30,8 @@ class CrossplaneAi < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.3/crossplane-ai_Linux_x86_64.tar.gz"
-        sha256 "b963abb00b5f27efe16222125a0085adb1b690930ceddcd61ba6d0d6e040bf2f"
+        url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.4/crossplane-ai_Linux_x86_64.tar.gz"
+        sha256 "f3a06fc4626bc9308e87a1d6d0726ff69e849680ae2dfb8ee9b704d2ce3b2328"
 
         def install
           bin.install "crossplane-ai"
@@ -40,8 +40,8 @@ class CrossplaneAi < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.3/crossplane-ai_Linux_arm64.tar.gz"
-        sha256 "97d6822b3e9c8096dc807bf8004ca3eb1d7163466d1b5dfeba8ab6d06aa32936"
+        url "https://github.com/patradinesh/crossplane-ai/releases/download/v0.1.0-alpha.4/crossplane-ai_Linux_arm64.tar.gz"
+        sha256 "d67d7fb7fdee67b127d2d1222ad0aa530843552d74bb40a4ebb086d696ec6468"
 
         def install
           bin.install "crossplane-ai"
